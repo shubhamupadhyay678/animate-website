@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bisleri | Taste the refreshment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container-wide nav">
+        <a class="brand" href="#top" aria-label="Bisleri home">
+          <img src="images/logo/logoipsum-395.svg" alt="Bisleri logo" />
+        </a>
+        <nav class="nav-links" id="navLinks">
+          <a href="#flavours">Flavours</a>
+          <a href="#story">Our story</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="nav-cta" href="#flavours"><i class="bi bi-bag"></i> Shop now</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><i class="bi bi-list"></i></button>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- <section class="event-banner" id="events" aria-labelledby="eventBannerTitle">
+        <div class="event-banner-inner">
+          <div class="event-banner-copy">
+            <div class="event-badge"><i class="bi bi-truck"></i> Mobile cart available</div>
+            <h2 id="eventBannerTitle">Bring the soda cart to your next event.</h2>
+            <p>Our mobile cart is ready for weddings, corporate events, pop-ups, and private celebrations - serving bright drinks and snacks wherever the party is.</p>
+            <div class="event-tags" aria-label="Event types">
+              <span><i class="bi bi-heart"></i> Weddings</span>
+              <span><i class="bi bi-briefcase"></i> Corporate</span>
+              <span><i class="bi bi-calendar3"></i> Pop-ups</span>
+            </div>
+            <a class="event-button" href="mailto:hello@bisleri.example?subject=Mobile%20cart%20event%20inquiry">Request event info <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <a class="event-sticker" href="mailto:hello@bisleri.example?subject=Book%20the%20Bisleri%20cart" aria-label="Book the cart">
+            <span>Book</span>
+            <small>the cart</small>
+          </a>
+        </div>
+      </section> -->
+
+      <section class="hero" id="flavours" data-slide="orange">
+        <div class="container-wide hero-inner">
+          <div class="hero-copy">
+            <div class="slide-count"><span id="slideNumber">01</span></div>
+            <h1 id="heroTitle">feel the pop</h1>
+          </div>
+
+          <div class="hero-word" id="heroWord">orange</div>
+          <img class="hero-bottle" id="heroBottle" src="images/bisleri-pop.png" alt="Bisleri Pop orange bottle" />
+          <img class="hero-big-pop" id="heroBigPop" src="images/big_pop.png" alt="Fresh oranges" />
+          <img class="hero-down-pop" id="heroDownPop" src="images/down_pop.png" alt="Orange" />
+          <img class="hero-big-lemon" id="heroBigLemon" src="images/big_lemon.png" alt="Fresh lemons" />
+          <img class="hero-down-lemon" id="heroDownLemon" src="images/down_lemon.png" alt="Lemon" />
+          <img class="hero-pop-detail" id="heroDetail" src="images/pop_imagsmall.png" alt="Bisleri Pop detail" />
+
+          
+        </div>
+
+        
+      </section>
+
+      <section class="scroll-showcase" aria-label="Bottle scroll showcase">
+        <div class="showcase-sticky">
+          <div class="showcase-title" aria-hidden="true">Bisleri</div>
+          <img class="scroll-bottle" id="scrollBottle" src="images/orageJuice.png" alt="Bisleri Limonata bottle" />
+          <figure class="showcase-card">
+            <img src="images/allSections/image_pore.png" alt="Bisleri water bottles and jar" />
+            <figcaption>Refreshment for every kind of day.</figcaption>
+          </figure>
+          <div class="showcase-copy">
+            <h2>Bisleri refreshment.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo at orci commodo tincidunt.</p>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section class="story" id="story">
+        <div class="container-wide story-grid">
+          <div class="story-art"><img src="images/orageJuice.png" alt="Bisleri Limonata bottle close-up" /></div>
+          <div class="story-copy"><div class="section-kicker">The Bisleri feeling</div><h2>Made for<br />your kind<br />of day.</h2><p>Simple ingredients, unmistakable flavour and that satisfying first sip. Bring a brighter pause to your routine with Bisleri flavoured water.</p><a class="arrow-link" href="#contact">Read our story <i class="bi bi-arrow-right"></i></a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container-wide footer-inner"><a class="brand" href="#top"><img src="images/logo/logoipsum-395.svg" alt="Bisleri logo" /><span>Bisleri<small>taste the refreshment</small></span></a><div class="footer-links"><a href="#flavours">Instagram</a><a href="#story">About</a><a href="mailto:hello@bisleri.example">Say hello</a></div></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
