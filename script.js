@@ -1,6 +1,6 @@
 const slides = [
-  { theme: "orange", title: "feel the pop", word: "orange", image: "images/bisleri-pop.png" },
-  { theme: "green", title: "choose the cool", word: "limonata", image: "images/bisleri-limonita.png" }
+  { theme: "orange", title: "feel the pop", word: "orange", image: "images/Orange_500_1.png" },
+  { theme: "green", title: "choose the cool", word: "limonata", image: "images/Lime_&_Lemon_500 _1.png" }
 ];
 
 let activeSlide = 0;
